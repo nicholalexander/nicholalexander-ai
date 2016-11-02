@@ -13,7 +13,7 @@ exports.handle = (client) => {
         documentation_link: 'http://docs.init.ai',
       })
       client.addResponse('app:response:name:provide/instructions')
-
+      client.addImageResponse('https://spoonuniversity.com/wp-content/uploads/sites/75/2016/04/Screen-Shot-2016-04-21-at-1.56.12-PM.png', 'Donuts?')
       client.updateConversationState({
         helloSent: true
       })
